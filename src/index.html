@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Parcel</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body class="bg-secondary-subtle">
+
+    <!-- Contact Form Basic -->
+    <div class="container mt-5 mx-auto">
+        <div class="row">
+            <div class="col-6 offset-3 p-5 shadow-lg rounded-3 bg-white">
+                <h2 class="text-center">Contact Form</h2>
+                <p class="text-center">We would love to hear from you</p>
+                <form>
+                    <div class="mb-3 form-floating">
+                        <input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+                        <label for="name" class="form-label">Name</label>
+                    </div>
+                    <div class="mb-3 form-floating">
+                        <input type="email" class="form-control form-control-lg" id="email" placeholder="Email Address">
+                        <label for="email" class="form-label">Email Address</label>
+                    </div>
+                    <div class="mb-3 form-floating">
+                        <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                        <label for="message" class="form-label">Message</label>
+                    </div>
+                    <div class="mb-3 d-grid">
+                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
